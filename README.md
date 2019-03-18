@@ -6,6 +6,8 @@
 
 服务器在美国，国内第一次访问可能有点慢
 
+[![](https://badge.juejin.im/entry/5c8f074ff265da680f7306f9/likes.svg?style=flat)](https://juejin.im/post/5c8ef5d4f265da68141661b1)
+
 ### 技术点
 - 前后端分离，REST API规范
 - MySQL数据表的设计，常用的SQL语句
