@@ -29,4 +29,10 @@
 
 所以我推荐读者按照上面的顺序阅读我的博客。
 
-数据库和REST API都在这个Repo两个目录下，前端的在这里，后端的在这里，运维的在这里。
+- 数据库和REST API都在这个Repo两个目录下
+
+- [前端的在这里](https://github.com/fish56/MessageBoardVue)
+
+- [后端的在这里](https://github.com/fish56/MessageBoardJava)
+
+- 运维的在这里。
