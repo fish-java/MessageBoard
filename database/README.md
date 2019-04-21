@@ -6,9 +6,8 @@
 
 下面是表的概述，部分常用的SQL我放到了当前目录的*.sql下，大家可以参考下
 ## Messages
-留言大概需要下面几个字段
+留言信息
 
-- `messages`: table name.
   - `id`: 每个message都应该有个ID，它应该是自动增长的，可以
     由数据库来创建
 
@@ -21,9 +20,13 @@
   - `update_datetime`: 最近一次编辑时间
   
 ## Users
-- `users`: 存储用户信息
+存储用户信息
 
-  - `username`
-  - `password`
-  - `token`
-
+  - `id`: 用户id，自增主键
+  - `username`： 用户名，不可重复
+  - `password`： 密码
+  - `token`：
+  - `birthday`
+  - `phone_number`
+  - `email`
+  - `create_datetime`
