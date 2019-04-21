@@ -1,21 +1,19 @@
+use message_board;
 drop table if exists users;
-create table
-  users(
-    # name and password
-    username char(20) primary key,
-    password char(30) not null,
+create table users(
+  id int unsigned primary key auto_increment,
+  username char(20) unique ,
+  password char(30) not null,
+  token char(30) not null unique,
 
-    # identify user with token
-    token char(30) not null unique,
+  birthday date,
+  phone_number int unsigned unique ,
+  email char(30),
 
-    # addition information
-    birthday date,
-    phone_number int,
-    email char(30),
+  create_datetime datetime
+      default current_timestamp not null
+);
 
-    create_datetime datetime
-        default current_timestamp not null
-  ) engine=InnoDB default charset=utf8;
 desc users;
 
 ALTER TABLE users
